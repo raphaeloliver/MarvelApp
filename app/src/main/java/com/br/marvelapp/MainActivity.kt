@@ -1,8 +1,8 @@
-package com.example.marvelapp
+package com.br.marvelapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.marvelapp.databinding.ActivityMainBinding
+import com.br.marvelapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

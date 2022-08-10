@@ -1,8 +1,8 @@
-package com.example.marvelapp
+package com.br.marvelapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.marvelapp.databinding.ActivitySplashBinding
+import com.br.marvelapp.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
 
