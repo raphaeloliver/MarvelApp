@@ -1,4 +1,4 @@
-package com.br.marvelapp.ui
+package com.br.marvelapp.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,7 +19,7 @@ abstract class BaseFragment<VB : ViewBinding, VM : ViewModel> : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-         _biding = getViewBinding(inflater, container)
+        _biding = getViewBinding(inflater, container)
         return binding.root
     }
 
