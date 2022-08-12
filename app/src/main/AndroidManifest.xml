@@ -17,10 +17,10 @@
         android:theme="@style/Theme.MarvelApp"
         tools:targetApi="31">
         <activity
-            android:name="com.br.marvelapp.SplashActivity"
+            android:name="com.example.marvelapp.SplashActivity"
             android:exported="true" />
         <activity
-            android:name="com.br.marvelapp.MainActivity"
+            android:name="com.example.marvelapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
