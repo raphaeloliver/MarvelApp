@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/listCharacterFragment">
+    app:startDestination="@id/favoriteCharacterFragment">
 
     <fragment
         android:id="@+id/detailsCharacterFragment"
@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_details_character">
         <argument
             android:name="character"
-            app:argType="com.example.marvelapp.model.character.CharacterModel" />
+            app:argType="com.example.marvelapp.data.model.character.CharacterModel" />
     </fragment>
     <fragment
         android:id="@+id/favoriteCharacterFragment"

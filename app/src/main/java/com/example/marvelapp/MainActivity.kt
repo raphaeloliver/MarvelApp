@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.bottomNavigation.apply {
             setupWithNavController(navController)
-            setOnNavigationItemSelectedListener {true}
+            setOnNavigationItemReselectedListener { }
         }
     }
 }
