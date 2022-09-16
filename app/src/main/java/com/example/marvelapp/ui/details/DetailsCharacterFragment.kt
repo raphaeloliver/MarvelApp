@@ -5,8 +5,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import com.example.marvelapp.databinding.FragmentDetailsCharacterBinding
 import com.example.marvelapp.ui.base.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
-class DetailsCharacterFragment : BaseFragment<FragmentDetailsCharacterBinding, DetailsCharacterViewModel>() {
+@AndroidEntryPoint
+class DetailsCharacterFragment :
+    BaseFragment<FragmentDetailsCharacterBinding, DetailsCharacterViewModel>() {
 
     override val viewModel: DetailsCharacterViewModel by viewModels()
 
